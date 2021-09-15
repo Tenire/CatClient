@@ -4,13 +4,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#EEEEEE"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_day"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_corner_gray"
+        android:gravity="center"
+        android:orientation="horizontal"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/time_day"/>
+        android:layout_height="wrap_content">
+        <!--    日统计    -->
+        <Button
+            android:id="@+id/button_day"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/button_corner_white"
+            android:text="日"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <!--    周统计    -->
+        <Button
+            android:id="@+id/button_week"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/button_corner_gray"
+            android:text="周"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <!--    月统计    -->
+        <Button
+            android:id="@+id/button_month"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/button_corner_gray"
+            android:text="月"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <!--    年统计    -->
+        <Button
+            android:id="@+id/button_year"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/button_corner_gray"
+            android:text="年"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+
+
+    </LinearLayout>
+
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/main_viewpager"
