@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">CatClient</string>
-    <string name="num_catfood">8848</string>
+    <string name="num_catfood">3675</string>
     <string name="tip_catfood">当日剩余</string>
     <string name="tip_time_last">上次喂食</string>
-    <string name="time_last">5时37分</string>
-    <string name="time_day">2021/9/14</string>
+    <string name="time_last">17时37分</string>
+    <string name="time_day">2021/9/12</string>
 </resources>

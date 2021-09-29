@@ -132,13 +132,13 @@ public class MainActivity extends Activity {
 
             List<BarEntry> list=new ArrayList<>();
 
-            list.add(new BarEntry(1, 3));
-            list.add(new BarEntry(2, 8));
-            list.add(new BarEntry(3, 6));
-            list.add(new BarEntry(4, 9));
-            list.add(new BarEntry(5, 5));
-            list.add(new BarEntry(6, 1));
-            list.add(new BarEntry(7, 10));
+            list.add(new BarEntry(1, 1000));
+            list.add(new BarEntry(2, 3698));
+            list.add(new BarEntry(3, 3676));
+            list.add(new BarEntry(4, 3710));
+            list.add(new BarEntry(5, 3658));
+            list.add(new BarEntry(6, 3589));
+            list.add(new BarEntry(7, 3719));
 
             BarDataSet barDataSet=new BarDataSet(list, "猫粮");
             BarData barData=new BarData(barDataSet);
@@ -194,13 +194,13 @@ public class MainActivity extends Activity {
 
             List<BarEntry> list=new ArrayList<>();
 
-            list.add(new BarEntry(1, 3));
-            list.add(new BarEntry(2, 8));
-            list.add(new BarEntry(3, 6));
-            list.add(new BarEntry(4, 9));
-            list.add(new BarEntry(5, 5));
-            list.add(new BarEntry(6, 1));
-            list.add(new BarEntry(7, 10));
+            list.add(new BarEntry(1, 1000));
+            list.add(new BarEntry(2, 3698));
+            list.add(new BarEntry(3, 3676));
+            list.add(new BarEntry(4, 3710));
+            list.add(new BarEntry(5, 3658));
+            list.add(new BarEntry(6, 3589));
+            list.add(new BarEntry(7, 3719));
 
             BarDataSet barDataSet=new BarDataSet(list, "猫粮");
             BarData barData=new BarData(barDataSet);
